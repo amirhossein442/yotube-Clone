@@ -1,0 +1,222 @@
+.header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.menu-icon {
+    
+    width: 30px;
+    display: inline-block;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+.head-yotube {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    position: relative;
+}
+.head-yotube:hover {
+    cursor: pointer;
+}
+
+
+.Yotube-Home {
+    position: absolute;
+    bottom: -30px;
+    right: -60px;
+    border: solid 1px white;
+    background-color: gray;
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.head-yotube:hover .Yotube-Home {
+    opacity: 1;
+}
+
+.beetween {
+    display: flex;
+    width: 500px;
+    align-items: center;
+}
+
+.search-bar {
+    flex: 1;
+    width: 0;
+    height: 30px;
+    font-size: 12px;
+    border-radius:2px;
+    border: solid 1px rgba(128, 128, 128, 0.631);
+    margin-top: 4px;
+    box-shadow: inset 2px 1px 5px rgba(196, 196, 196, 0.42);
+    background-color: transparent;
+    color: rgb(240, 255, 255);
+    font-size:  13px;
+    outline: none;
+}
+
+.search-bar::placeholder {
+    color: white;
+}
+.search-bar:focus{
+    border: 1px solid rgba(0, 0, 255, 0.751);
+}
+
+
+.search-icon {
+    margin-left: -1;
+    box-shadow: inset 0px 1px 3px gray;
+    margin-top: 3px;
+    width: 29px;
+    display: flex;
+    border: 1px rgba(128, 128, 128, 0.491) solid;
+    padding: 2px;
+    border-radius: 2px;
+    position: relative;
+}
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.search-tootltip {
+    display: flex;
+    padding: 3px;
+    opacity: 0;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 43px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: gray;
+    color: white;
+    pointer-events: none;
+}
+
+.search-icon:hover .search-tootltip {
+    opacity: 1;
+}
+
+.voice-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(144, 144, 144);
+    margin-left: 10px;
+    position: relative;
+}
+
+.voice {
+    width: 15px;
+}
+
+.voice-icon:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.voice-tooltip {
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 11px;
+    width: 120px;
+    position: absolute;
+    bottom: -30px;
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.voice-icon:hover .voice-tooltip {
+    opacity: 1;
+}
+
+.right {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.zanghol {
+    color: white;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    transition: border 0.1s, border-radius 0.1s, padding 0.1s, background-color 0.1s;
+    position: relative;
+}
+
+.zanghol:hover {
+    border: solid 1px gray;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: gray;
+    cursor: pointer;
+
+}
+
+.notif-tooltip {
+    position: absolute;
+    bottom: -40px;
+    font-size: 12px;
+    border: 1px solid gray;
+    background-color: gray;
+    padding: 7px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.zanghol:hover .notif-tooltip {
+    opacity: 1;
+}
+
+.notif {
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.my-pic {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.my-pic:hover {
+    cursor: pointer;
+}
