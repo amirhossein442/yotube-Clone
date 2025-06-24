@@ -1,0 +1,28 @@
+.menu {
+    width: 75px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menu-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 80px;
+}
+.menu-sidebar div{
+    font-family: roboto ,Arial;
+    font-size: 10px;
+    color: white;
+}
+.menu-sidebar:hover {
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.331);
+    cursor: pointer;
+}
