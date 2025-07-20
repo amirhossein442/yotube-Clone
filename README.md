@@ -1,3 +1,3 @@
 
 
-![تصویر](/picture/yotube.PNG)
+![تصویر](/pictuer/yotube.PNG)
